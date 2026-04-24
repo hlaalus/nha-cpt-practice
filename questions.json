@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "A phlebotomist asks a patient if they have had anything to eat or drink in the last 8 to 10 hours. The phlebotomist does not share a common language with the patient. Which type of communication does this describe?",
+    "choices": [
+      "Communication barrier",
+      "Active listening",
+      "Nonverbal communication",
+      "Passive communication"
+    ],
+    "correct_answer": "Communication barrier",
+    "explanation": "A language difference creates a barrier that prevents effective communication."
+  },
+  {
+    "id": 2,
+    "question": "A phlebotomist spills blood on the laboratory counter. What is the appropriate cleaning method?",
+    "choices": [
+      "Using a 10% bleach solution",
+      "Utilizing special blood asepsis",
+      "Leaving the spill for a hazardous materials team",
+      "Applying any medical antiseptic"
+    ],
+    "correct_answer": "Using a 10% bleach solution",
+    "explanation": "A 1:10 bleach dilution is the standard disinfectant for blood spills."
+  },
+  {
+    "id": 3,
+    "question": "Why is the thumb anchoring method preferred during venipuncture?",
+    "choices": [
+      "The thumb anchoring method is safer",
+      "It provides a better grip",
+      "It guarantees successful collection",
+      "It increases blood flow"
+    ],
+    "correct_answer": "The thumb anchoring method is safer",
+    "explanation": "It keeps the skin taut and stabilizes the vein safely."
+  },
+  {
+    "id": 4,
+    "question": "A patient is sweating and hyperventilating but denies any symptoms. What should the phlebotomist do?",
+    "choices": [
+      "Observe the patient and prepare for syncope",
+      "Speed up the blood draw",
+      "Stop the collection and elevate feet",
+      "Reduce number of tubes collected"
+    ],
+    "correct_answer": "Observe the patient and prepare for syncope",
+    "explanation": "Symptoms indicate possible fainting; the phlebotomist should prepare for syncope."
+  },
+  {
+    "id": 5,
+    "question": "A capillary tube cracks during infant oxygen testing. What should be done?",
+    "choices": [
+      "Dispose in a sharps container",
+      "Place in a nonadditive tube",
+      "Seal with sterile tape",
+      "Wrap in aluminum foil"
+    ],
+    "correct_answer": "Dispose in a sharps container",
+    "explanation": "A cracked capillary tube is a biohazard and must be disposed of safely."
+  },
+  {
+    "id": 6,
+    "question": "What is the most important step before donning a respirator?",
+    "choices": [
+      "Confirm correct fit",
+      "Choose a surgical mask",
+      "Check respirator color",
+      "Wear a mask underneath it"
+    ],
+    "correct_answer": "Confirm correct fit",
+    "explanation": "A proper seal is required for respirator effectiveness."
+  },
+  {
+    "id": 7,
+    "question": "What should a phlebotomist tell a patient preparing for a glucose test?",
+    "choices": [
+      "Do not eat or drink for 9 hours before the test",
+      "Limit fat intake for 3 days",
+      "Drink fruit juice before the test",
+      "Avoid all exercise for 9 hours"
+    ],
+    "correct_answer": "Do not eat or drink for 9 hours before the test",
+    "explanation": "Fasting ensures accurate glucose test results."
+  },
+  {
+    "id": 10,
+    "question": "A patient goes into cardiac arrest during venipuncture. What should the phlebotomist do first?",
+    "choices": [
+      "Perform chest compressions",
+      "Call Code Red",
+      "Prepare nitroglycerin",
+      "Leave to get help"
+    ],
+    "correct_answer": "Perform chest compressions",
+    "explanation": "Immediate CPR is required per AHA guidelines."
+  },
+  {
+    "id": 8,
+    "question": "Only a basilic vein is visible in both arms. What should the phlebotomist do?",
+    "choices": [
+      "Palpate veins on the hand",
+      "Use the basilic vein immediately",
+      "Insert needle into antecubital center",
+      "Perform dermal puncture"
+    ],
+    "correct_answer": "Palpate veins on the hand",
+    "explanation": "Other sites should be assessed before using the basilic vein."
+  },
+  {
+    "id": 9,
+    "question": "Which test requires chain of custody?",
+    "choices": [
+      "Blood alcohol concentration",
+      "Lithium level",
+      "Prothrombin time",
+      "Troponin"
+    ],
+    "correct_answer": "Blood alcohol concentration",
+    "explanation": "BAC testing may be used legally and requires chain of custody."
+  },
+  {
+    "id": 11,
+    "question": "What is the correct compression rate for CPR?",
+    "choices": [
+      "100 to 120 compressions per minute",
+      "130 to 140 compressions per minute",
+      "20 to 40 compressions per minute",
+      "40 to 60 compressions per minute"
+    ],
+    "correct_answer": "100 to 120 compressions per minute",
+    "explanation": "AHA guidelines specify 100\u2013120 compressions per minute."
+  },
+  {
+    "id": 12,
+    "question": "A sample will be tested 10 hours after collection for autoimmune testing. How should it be stored?",
+    "choices": [
+      "Refrigerate at 2\u20138\u00b0C",
+      "Store at room temperature",
+      "Protect from light",
+      "Discard sample"
+    ],
+    "correct_answer": "Refrigerate at 2\u20138\u00b0C",
+    "explanation": "Samples tested after 8 hours must be refrigerated."
+  },
+  {
+    "id": 13,
+    "question": "How should a photosensitive specimen be transported?",
+    "choices": [
+      "Wrapped in opaque material",
+      "In a lab coat pocket",
+      "At front desk",
+      "In a cold pack"
+    ],
+    "correct_answer": "Wrapped in opaque material",
+    "explanation": "Light protection prevents sample degradation."
+  },
+  {
+    "id": 14,
+    "question": "Which equipment is used for PKU newborn screening?",
+    "choices": [
+      "Screening card",
+      "Sterile plastic container",
+      "Glass tube",
+      "Microcontainer"
+    ],
+    "correct_answer": "Screening card",
+    "explanation": "PKU testing uses dried blood spots on filter paper cards."
+  },
+  {
+    "id": 15,
+    "question": "How can hemolysis be prevented in an EDTA sample?",
+    "choices": [
+      "Remove tourniquet within 1 minute",
+      "Allow sample to clot",
+      "Place sample on ice slurry",
+      "Shake tube vigorously"
+    ],
+    "correct_answer": "Remove tourniquet within 1 minute",
+    "explanation": "Prolonged tourniquet use increases hemolysis risk."
+  },
+  {
+    "id": 16,
+    "question": "What is the first action for profuse arm bleeding?",
+    "choices": [
+      "Apply pressure",
+      "Apply tourniquet",
+      "Change gauze",
+      "Elevate arm"
+    ],
+    "correct_answer": "Apply pressure",
+    "explanation": "Direct pressure controls bleeding immediately."
+  },
+  {
+    "id": 17,
+    "question": "What antiseptic should be used for a BAC test?",
+    "choices": [
+      "Povidone-iodine",
+      "Isopropyl alcohol",
+      "Ethyl alcohol",
+      "Glutaraldehyde"
+    ],
+    "correct_answer": "Povidone-iodine",
+    "explanation": "Alcohol-based antiseptics would contaminate BAC results."
+  },
+  {
+    "id": 18,
+    "question": "What indicates urine specimen tampering?",
+    "choices": [
+      "Temperature of 30\u00b0C",
+      "Light yellow color",
+      "Creatinine 25 mg/dL",
+      "Specific gravity 1.005"
+    ],
+    "correct_answer": "Temperature of 30\u00b0C",
+    "explanation": "Urine should be near body temperature if freshly collected."
+  },
+  {
+    "id": 19,
+    "question": "How should a phlebotomist determine timing for a trough level draw?",
+    "choices": [
+      "Contact the patient's nurse",
+      "Ask the patient",
+      "Call previous phlebotomist",
+      "Check internet records"
+    ],
+    "correct_answer": "Contact the patient's nurse",
+    "explanation": "Nurses have the most reliable medication timing records."
+  },
+  {
+    "id": 20,
+    "question": "What should be done if a requisition is missing provider address?",
+    "choices": [
+      "Call provider to confirm",
+      "Process specimen anyway",
+      "Ask supervisor",
+      "Search internet"
+    ],
+    "correct_answer": "Call provider to confirm",
+    "explanation": "Missing critical information must be verified directly."
+  },
+  {
+    "id": 21,
+    "question": "What is required for droplet precautions?",
+    "choices": [
+      "Wear a mask",
+      "Use N95 respirator",
+      "No PPE needed",
+      "Transport patient immediately"
+    ],
+    "correct_answer": "Wear a mask",
+    "explanation": "Droplet transmission is prevented with standard surgical masks."
+  },
+  {
+    "id": 22,
+    "question": "What should be communicated during a second blood culture collection?",
+    "choices": [
+      "First venipuncture site location",
+      "Patient condition in hallway",
+      "Delay details in elevator",
+      "Cleaning time in EHR only"
+    ],
+    "correct_answer": "First venipuncture site location",
+    "explanation": "Site communication ensures proper alternate site selection."
+  },
+  {
+    "id": 23,
+    "question": "What should be done if a patient has latex sensitivity and only latex tourniquet is available?",
+    "choices": [
+      "Place tourniquet over clothing",
+      "Skip tourniquet",
+      "Cancel procedure",
+      "Use briefly on skin"
+    ],
+    "correct_answer": "Place tourniquet over clothing",
+    "explanation": "Barrier reduces direct latex exposure."
+  },
+  {
+    "id": 24,
+    "question": "What is required on a chain of custody form?",
+    "choices": [
+      "Date, time, and location of collection",
+      "Insurance and ICD codes",
+      "Provider address only",
+      "Patient nickname"
+    ],
+    "correct_answer": "Date, time, and location of collection",
+    "explanation": "These establish legal traceability of the specimen."
+  },
+  {
+    "id": 25,
+    "question": "No blood fills the tube during venipuncture despite correct placement. What may be the cause?",
+    "choices": [
+      "Tourniquet too tight",
+      "Bevel up",
+      "Strong anchoring",
+      "Artery puncture"
+    ],
+    "correct_answer": "Tourniquet too tight",
+    "explanation": "Excess pressure can restrict venous blood flow."
+  },
+  {
+    "id": 26,
+    "question": "Before obtaining consent for an HIV dermal puncture test, what must the phlebotomist explain?",
+    "choices": [
+      "What will be done with the test information",
+      "When results will be available",
+      "Who will provide results",
+      "Where treatment will occur"
+    ],
+    "correct_answer": "What will be done with the test information",
+    "explanation": "Patients must understand how their test information will be used before consenting."
+  },
+  {
+    "id": 27,
+    "question": "Which venipuncture method is appropriate when the median cubital vein is deep and basilic is superficial?",
+    "choices": [
+      "Median cubital at 30\u00b0",
+      "Basilic at 30\u00b0",
+      "Basilic at 15\u00b0",
+      "Median cubital at 15\u00b0"
+    ],
+    "correct_answer": "Median cubital at 30\u00b0",
+    "explanation": "Deeper veins require a steeper insertion angle (~30\u00b0)."
+  },
+  {
+    "id": 28,
+    "question": "How should specimens be shipped in hot weather?",
+    "choices": [
+      "Box with cold packs and biohazard label",
+      "Bubble wrap only",
+      "Padded envelope with cold packs",
+      "Padded envelope with bubble wrap"
+    ],
+    "correct_answer": "Box with cold packs and biohazard label",
+    "explanation": "Specimens must be temperature-controlled and properly contained."
+  },
+  {
+    "id": 29,
+    "question": "What helps confirm the best vein for venipuncture?",
+    "choices": [
+      "Look and palpate both arms",
+      "Ask patient preference",
+      "Use previous phlebotomist site",
+      "Use basilic vein immediately"
+    ],
+    "correct_answer": "Look and palpate both arms",
+    "explanation": "Both arms must be assessed before selecting a site."
+  },
+  {
+    "id": 30,
+    "question": "What PPE should be used when glass breaks in a centrifuge?",
+    "choices": [
+      "Gloves and face shield",
+      "Clay-based powder",
+      "Chlorine powder",
+      "N95 respirator and gown"
+    ],
+    "correct_answer": "Gloves and face shield",
+    "explanation": "Broken glass requires PPE to prevent injury and exposure."
+  },
+  {
+    "id": 31,
+    "question": "Where are crossmatch test results sent?",
+    "choices": [
+      "Immunohematology/blood bank",
+      "Chemistry",
+      "Microbiology",
+      "Serology"
+    ],
+    "correct_answer": "Immunohematology/blood bank",
+    "explanation": "Crossmatching is performed by the blood bank."
+  },
+  {
+    "id": 32,
+    "question": "How should a capillary tube be held for accurate collection?",
+    "choices": [
+      "Horizontally",
+      "Vertically downward",
+      "Angled upward",
+      "Tilted randomly"
+    ],
+    "correct_answer": "Horizontally",
+    "explanation": "Horizontal positioning ensures proper capillary fill."
+  },
+  {
+    "id": 33,
+    "question": "What should a phlebotomist do after missing a vein with an ETS system?",
+    "choices": [
+      "Remove tourniquet and set up new needle",
+      "Reinsert needle immediately",
+      "Leave needle and change tubes",
+      "Switch to butterfly without removing tourniquet"
+    ],
+    "correct_answer": "Remove tourniquet and set up new needle",
+    "explanation": "A fresh sterile setup is required after a failed attempt."
+  },
+  {
+    "id": 34,
+    "question": "How can a phlebotomist confirm understanding with a hearing-impaired patient?",
+    "choices": [
+      "Write out procedural steps",
+      "Ask nurse to explain",
+      "Speak louder",
+      "Start procedure immediately"
+    ],
+    "correct_answer": "Write out procedural steps",
+    "explanation": "Written instructions ensure comprehension."
+  },
+  {
+    "id": 35,
+    "question": "What is the correct order of draw using a butterfly for coagulation, CBC, and glucose tests?",
+    "choices": [
+      "Nonadditive, light blue, EDTA, gray",
+      "Light blue, SST, green, gray",
+      "EDTA, nonadditive, green, light yellow",
+      "Light blue, green, EDTA, light yellow"
+    ],
+    "correct_answer": "Nonadditive, light blue, EDTA, gray",
+    "explanation": "Butterfly tubing requires a discard tube before coagulation samples."
+  },
+  {
+    "id": 36,
+    "question": "Which tube is used for blood alcohol concentration testing?",
+    "choices": [
+      "Sodium fluoride",
+      "Lithium heparin",
+      "Ammonium heparin",
+      "Sodium citrate"
+    ],
+    "correct_answer": "Sodium fluoride",
+    "explanation": "Fluoride preserves glucose and prevents glycolysis."
+  },
+  {
+    "id": 37,
+    "question": "What is the correct dermal puncture order of collection?",
+    "choices": [
+      "EDTA, green, red",
+      "Blood cultures, RBC, glucose",
+      "Red, EDTA, oxygen levels",
+      "Light blue, red, green"
+    ],
+    "correct_answer": "EDTA, green, red",
+    "explanation": "Microcollection order prioritizes additive impact on samples."
+  },
+  {
+    "id": 38,
+    "question": "What patient information is required besides name during registration?",
+    "choices": [
+      "Date of birth",
+      "Age",
+      "Date of service",
+      "ICD-10 code"
+    ],
+    "correct_answer": "Date of birth",
+    "explanation": "DOB ensures correct patient identification."
+  },
+  {
+    "id": 39,
+    "question": "How should a venipuncture site be cleaned?",
+    "choices": [
+      "Scrub back and forth",
+      "Clean in outward circles",
+      "Blot for 2\u20133 minutes",
+      "Scrub lightly once"
+    ],
+    "correct_answer": "Scrub back and forth",
+    "explanation": "Friction scrub removes microorganisms effectively."
+  },
+  {
+    "id": 40,
+    "question": "What is the minimum rinse time after chemical exposure?",
+    "choices": [
+      "15 minutes",
+      "3 minutes",
+      "5 minutes",
+      "10 minutes"
+    ],
+    "correct_answer": "15 minutes",
+    "explanation": "OSHA requires at least 15 minutes of irrigation."
+  },
+  {
+    "id": 41,
+    "question": "What should be done for critical hemoglobin results?",
+    "choices": [
+      "Notify provider immediately",
+      "Call insurance company",
+      "Record only in LIS",
+      "Notify nurse only"
+    ],
+    "correct_answer": "Notify provider immediately",
+    "explanation": "Critical values must be reported directly to the provider."
+  },
+  {
+    "id": 42,
+    "question": "What evaluates whether a glucometer meets required thresholds?",
+    "choices": [
+      "Quality controls",
+      "Quality assurance",
+      "Quality improvement",
+      "Disclosure forms"
+    ],
+    "correct_answer": "Quality controls",
+    "explanation": "QC ensures device accuracy and threshold compliance."
+  },
+  {
+    "id": 43,
+    "question": "What must be included on a blood culture requisition?",
+    "choices": [
+      "Ordering provider name and address",
+      "Lactose dosage",
+      "Dermal puncture timing",
+      "Microtainer order"
+    ],
+    "correct_answer": "Ordering provider name and address",
+    "explanation": "Provider identification is required for test validity."
+  },
+  {
+    "id": 44,
+    "question": "What is the most accurate test for lactose intolerance?",
+    "choices": [
+      "Hydrogen breath test",
+      "O&P test",
+      "Sweat chloride test",
+      "24-hour urine test"
+    ],
+    "correct_answer": "Hydrogen breath test",
+    "explanation": "Measures hydrogen produced from lactose malabsorption."
+  },
+  {
+    "id": 45,
+    "question": "Which is a required SDS section?",
+    "choices": [
+      "Handling and storage",
+      "Biological properties",
+      "Workplace controls",
+      "Expiration date"
+    ],
+    "correct_answer": "Handling and storage",
+    "explanation": "SDS includes safe handling and storage guidelines."
+  },
+  {
+    "id": 46,
+    "question": "Where should blood-soiled gauze be discarded?",
+    "choices": [
+      "Biohazard waste container",
+      "Trash bin",
+      "Sharps container",
+      "Inside glove"
+    ],
+    "correct_answer": "Biohazard waste container",
+    "explanation": "Contaminated materials require biohazard disposal."
+  },
+  {
+    "id": 47,
+    "question": "What instruction is given for a urine pregnancy test?",
+    "choices": [
+      "Collect first morning urine",
+      "Fast for 5 hours",
+      "Eat carbohydrates",
+      "Discard first urine"
+    ],
+    "correct_answer": "Collect first morning urine",
+    "explanation": "hCG concentration is highest in early morning urine."
+  },
+  {
+    "id": 48,
+    "question": "What reduces cross-contamination risk?",
+    "choices": [
+      "Short unpolished nails",
+      "Wear clogs",
+      "Wear lab coat outside lab",
+      "Eat in lab"
+    ],
+    "correct_answer": "Short unpolished nails",
+    "explanation": "Short nails reduce microbial harboring."
+  },
+  {
+    "id": 49,
+    "question": "What is the best response to an anxious patient?",
+    "choices": [
+      "Do you have any questions?",
+      "Be brave",
+      "I have experience",
+      "Choose dermal puncture"
+    ],
+    "correct_answer": "Do you have any questions?",
+    "explanation": "Encourages communication and reduces anxiety."
+  },
+  {
+    "id": 50,
+    "question": "What should be checked before opening test controls?",
+    "choices": [
+      "Expiration date",
+      "Sharps log",
+      "Patient glucometer",
+      "EHR entry"
+    ],
+    "correct_answer": "Expiration date",
+    "explanation": "Expired controls invalidate quality testing."
+  },
+  {
+    "id": 51,
+    "question": "A phlebotomist is collecting blood from an infant who weighs 3.6 kg (8 lb). Which of the following actions will help reduce the risk of iatrogenic anemia?",
+    "choices": [
+      "Perform a dermal puncture on the heel.",
+      "Fill the ETS tubes half full.",
+      "Fill the ETS tubes three-fourths full.",
+      "Perform a venipuncture with a 21-gauge needle."
+    ],
+    "explanation": "Performing a dermal puncture will take the least amount of blood and reduces risk of iatrogenic anemia.",
+    "correct_answer": "Perform a dermal puncture on the heel."
+  },
+  {
+    "id": 52,
+    "question": "A phlebotomist is preparing to collect a blood specimen from a patient who has HIV. Which of the following actions should the phlebotomist take?",
+    "choices": [
+      "Wear an extra set of gloves to prevent exposure.",
+      "Ask a supervisor to observe the venipuncture.",
+      "Apply a respirator mask to prevent exposure.",
+      "Perform the venipuncture using standard precautions."
+    ],
+    "explanation": "Standard precautions are used for all patients regardless of diagnosis.",
+    "correct_answer": "Perform the venipuncture using standard precautions."
+  },
+  {
+    "id": 53,
+    "question": "A phlebotomist is performing a venipuncture for a patient who begins experiencing a seizure. Which of the following actions should the phlebotomist take?",
+    "choices": [
+      "Discontinue the collection.",
+      "Insert a tongue depressor into the patient's mouth.",
+      "Place the patient in the prone position.",
+      "Restrain the patient."
+    ],
+    "explanation": "The procedure must be stopped immediately to prevent injury.",
+    "correct_answer": "Discontinue the collection."
+  },
+  {
+    "id": 54,
+    "question": "A phlebotomist has called a patient from the lobby in an outpatient lab setting. How should the phlebotomist greet the patient?",
+    "choices": [
+      "Good morning. My name is Riley, and I'm from the lab to draw your blood.",
+      "Hi, Sweetie. I'm Riley. I'm going to draw your blood.",
+      "Good morning, Smith. I'm Riley, and I'm here to collect some samples from you.",
+      "Carol Smith, I'm going to be your phlebotomist today. Are you okay with that?"
+    ],
+    "explanation": "Proper greeting includes name, role, and purpose in a professional tone.",
+    "correct_answer": "Good morning. My name is Riley, and I'm from the lab to draw your blood."
+  },
+  {
+    "id": 55,
+    "question": "A health care professional asks for a phlebotomist's assistance with a nervous adolescent. Which action should the phlebotomist take?",
+    "choices": [
+      "Ask the adolescent what they like to do for fun.",
+      "Hold the adolescent's head away from the venipuncture.",
+      "Give the patient candy to stay still.",
+      "Inform the adolescent about the risks of venipuncture."
+    ],
+    "explanation": "Distraction through conversation reduces anxiety.",
+    "correct_answer": "Ask the adolescent what they like to do for fun."
+  },
+  {
+    "id": 56,
+    "question": "A phlebotomist using tincture of iodine can adversely impact which test?",
+    "choices": [
+      "Potassium",
+      "RBC count",
+      "WBC count",
+      "Lithium"
+    ],
+    "explanation": "Iodine can elevate potassium levels.",
+    "correct_answer": "Potassium"
+  },
+  {
+    "id": 57,
+    "question": "Which of the following is required to help phlebotomists understand exposure risks?",
+    "choices": [
+      "Bloodborne pathogen training",
+      "Needlestick Safety and Prevention Act certificate",
+      "Bloodborne pathogen observance",
+      "Needlestick Safety and Prevention Act documentation"
+    ],
+    "explanation": "Training is required to understand exposure risks.",
+    "correct_answer": "Bloodborne pathogen training"
+  },
+  {
+    "id": 58,
+    "question": "Which regulation provides phlebotomy standards for proficiency testing and quality control?",
+    "choices": [
+      "CLIA",
+      "HIPAA",
+      "Anti-Kickback Statute",
+      "Civil Monetary Penalties Law"
+    ],
+    "explanation": "CLIA governs lab quality control and proficiency testing.",
+    "correct_answer": "CLIA"
+  },
+  {
+    "id": 59,
+    "question": "Which should be used in place of a tourniquet for venipuncture?",
+    "choices": [
+      "Blood pressure cuff",
+      "Elastic bandage",
+      "Plastic tubing",
+      "Surgical string"
+    ],
+    "explanation": "A BP cuff can provide controlled pressure when needed.",
+    "correct_answer": "Blood pressure cuff"
+  },
+  {
+    "id": 60,
+    "question": "When should a newborn screening be collected?",
+    "choices": [
+      "Within 72 hr",
+      "Within 96 hr",
+      "Within 5 days",
+      "Within 2 weeks"
+    ],
+    "explanation": "Newborn screening is collected within 72 hours of birth.",
+    "correct_answer": "Within 72 hr"
+  },
+  {
+    "id": 61,
+    "question": "A phlebotomist sees a requisition for an infant bilirubin test on twins. Which action should the phlebotomist take to confirm the correct patient?",
+    "choices": [
+      "Verify with the infant's parent or guardian.",
+      "Confirm the information with the infant's provider.",
+      "Check the infant's date of birth.",
+      "Review the sign on the crib."
+    ],
+    "explanation": "Parent or guardian verification is the most reliable method for patient identification.",
+    "correct_answer": "Verify with the infant's parent or guardian."
+  },
+  {
+    "id": 62,
+    "question": "Which of the following items should be disposed of in a sharps container?",
+    "choices": [
+      "Winged infusion sets",
+      "Bandages",
+      "Vacutainer tubes",
+      "Tourniquets"
+    ],
+    "explanation": "Winged infusion sets contain needles and must go into sharps disposal.",
+    "correct_answer": "Winged infusion sets"
+  },
+  {
+    "id": 63,
+    "question": "Which needle should be used for a patient with fragile, easily collapsed veins?",
+    "choices": [
+      "Straight needle and syringe",
+      "Butterfly needle and evacuated tube system",
+      "Straight needle and evacuated tube system",
+      "Capillary lancet"
+    ],
+    "explanation": "A syringe allows controlled suction, reducing vein collapse risk.",
+    "correct_answer": "Straight needle and syringe"
+  },
+  {
+    "id": 64,
+    "question": "What is the proper handling instruction for an EDTA tube collected for a CBC?",
+    "choices": [
+      "Place the tube in an automatic rocking device.",
+      "Put the tube in an ice slurry within 10 min.",
+      "Aliquot the tube within 10 min.",
+      "Centrifuge the tube immediately."
+    ],
+    "explanation": "Gentle mixing ensures anticoagulant distribution for accurate CBC results.",
+    "correct_answer": "Place the tube in an automatic rocking device."
+  },
+  {
+    "id": 65,
+    "question": "What may occur if an expired EDTA tube is used?",
+    "choices": [
+      "The sample might clot.",
+      "The sample might be hemolyzed.",
+      "The sample might be lipemic.",
+      "The sample might fail to clot."
+    ],
+    "explanation": "Expired anticoagulant may fail, leading to clotting.",
+    "correct_answer": "The sample might clot."
+  },
+  {
+    "id": 66,
+    "question": "What action helps ensure a tourniquet can be released quickly in an emergency?",
+    "choices": [
+      "Tie the tourniquet for a one-handed release.",
+      "Tie the tourniquet below the site.",
+      "Tie the tourniquet firmly and tightly.",
+      "Tie the tourniquet in a square knot."
+    ],
+    "explanation": "One-handed release allows rapid removal if needed.",
+    "correct_answer": "Tie the tourniquet for a one-handed release."
+  },
+  {
+    "id": 67,
+    "question": "Which action ensures a needle is safe for use?",
+    "choices": [
+      "Inspect for rough bevels and blunt tips.",
+      "Engage safety after venipuncture attempt.",
+      "Check tube fill levels.",
+      "Observe vein size."
+    ],
+    "explanation": "Needles must be inspected for defects before use.",
+    "correct_answer": "Inspect for rough bevels and blunt tips."
+  },
+  {
+    "id": 68,
+    "question": "A patient is bleeding after venipuncture several minutes later. What was likely omitted?",
+    "choices": [
+      "Applying a bandage after venipuncture.",
+      "Checking if bleeding stopped.",
+      "Asking about beta blockers.",
+      "Removing the tourniquet in a timely manner."
+    ],
+    "explanation": "Failure to apply a bandage can lead to continued bleeding.",
+    "correct_answer": "Applying a bandage after venipuncture."
+  },
+  {
+    "id": 69,
+    "question": "A patient expresses concern about pain. What should the phlebotomist say?",
+    "choices": [
+      "It may hurt a little.",
+      "Don't worry, it will only take a minute.",
+      "You won't feel a thing.",
+      "Don't cry, that only makes it worse."
+    ],
+    "explanation": "Honest but reassuring communication is appropriate.",
+    "correct_answer": "It may hurt a little."
+  },
+  {
+    "id": 70,
+    "question": "Where can a phlebotomist find copayment information for Medicare Advantage?",
+    "choices": [
+      "Insurance card",
+      "Requisition form",
+      "Electronic health record",
+      "Prospective Payment System"
+    ],
+    "explanation": "Insurance cards contain copayment and plan details.",
+    "correct_answer": "Insurance card"
+  },
+  {
+    "id": 71,
+    "question": "How should a phlebotomist determine fasting status for a patient with dementia?",
+    "choices": [
+      "Ask both patient and caregiver.",
+      "Make a motion of eating and drinking.",
+      "Speak privately to caregiver.",
+      "Speak slowly and loudly."
+    ],
+    "explanation": "Both patient and caregiver input improves accuracy.",
+    "correct_answer": "Ask both patient and caregiver."
+  },
+  {
+    "id": 72,
+    "question": "What must change if dermal puncture replaces venipuncture for insurance billing?",
+    "choices": [
+      "ICD-10 code must be updated.",
+      "APC number must be changed.",
+      "HCPCS code must be removed.",
+      "CMS number must be updated."
+    ],
+    "explanation": "Coding must match the actual procedure performed.",
+    "correct_answer": "ICD-10 code must be updated."
+  },
+  {
+    "id": 73,
+    "question": "What instruction should be given for a midstream urine collection?",
+    "choices": [
+      "Start urinating, collect midstream, fill cup 30\u2013100 mL.",
+      "Wipe with disinfectant and fill cup with 15 mL.",
+      "Urinate into collection hat.",
+      "Collect urine from toilet."
+    ],
+    "explanation": "Midstream clean-catch reduces contamination.",
+    "correct_answer": "Start urinating, collect midstream, fill cup 30\u2013100 mL."
+  },
+  {
+    "id": 74,
+    "question": "What is the best equipment for small, difficult veins?",
+    "choices": [
+      "Winged infusion set with 23-gauge needle",
+      "21-gauge safety needle with ETS",
+      "Straight needle with ETS",
+      "Syringe with 21-gauge needle"
+    ],
+    "explanation": "Butterfly sets are ideal for small veins.",
+    "correct_answer": "Winged infusion set with 23-gauge needle"
+  },
+  {
+    "id": 75,
+    "question": "How should consent be obtained for a 15-year-old patient?",
+    "choices": [
+      "Consent from parent or legal guardian is required.",
+      "Ask patient for verbal consent only.",
+      "Ask nurse to confirm consent.",
+      "Patient may sign consent alone."
+    ],
+    "explanation": "Minors require guardian consent.",
+    "correct_answer": "Consent from parent or legal guardian is required."
+  },
+  {
+    "id": 76,
+    "question": "How should a phlebotomist maintain laboratory information system security?",
+    "choices": [
+      "Log out after using the system.",
+      "Choose method for receiving results.",
+      "Keep username private.",
+      "Email password to staff."
+    ],
+    "explanation": "Logging out prevents unauthorized access.",
+    "correct_answer": "Log out after using the system."
+  },
+  {
+    "id": 77,
+    "question": "Where is the best site for adult dermal puncture?",
+    "choices": [
+      "Side of finger",
+      "Fleshy arch of foot",
+      "Middle of foot",
+      "Finger tip"
+    ],
+    "explanation": "Lateral fingertip reduces injury risk.",
+    "correct_answer": "Side of finger"
+  },
+  {
+    "id": 78,
+    "question": "Which antiseptic should be used for a patient allergic to alcohol?",
+    "choices": [
+      "Chlorhexidine",
+      "Iodophor",
+      "Tincture of iodine",
+      "Hydrogen peroxide"
+    ],
+    "explanation": "Chlorhexidine is an alcohol-free antiseptic option.",
+    "correct_answer": "Chlorhexidine"
+  },
+  {
+    "id": 79,
+    "question": "What is the correct patient position for a dermal puncture glucose test?",
+    "choices": [
+      "Arm downwards with palm up",
+      "Arm downwards with palm down",
+      "Palm held by caregiver at 90\u00b0",
+      "Palm held at 15\u201330\u00b0 angle"
+    ],
+    "explanation": "Palm-up positioning improves access and control.",
+    "correct_answer": "Arm downwards with palm up"
+  },
+  {
+    "id": 80,
+    "question": "What should a phlebotomist do if a requisition name differs from a wristband?",
+    "choices": [
+      "Ask a nurse to verify identity before proceeding.",
+      "Correct the requisition with ink.",
+      "Write 'unable to collect'.",
+      "Ask patient to confirm name only."
+    ],
+    "explanation": "Discrepancies must be resolved through proper verification channels.",
+    "correct_answer": "Ask a nurse to verify identity before proceeding."
+  },
+  {
+    "id": 81,
+    "question": "Which procedure helps stabilize a vein before needle insertion?",
+    "choices": [
+      "Place thumb 2.5\u20135.1 cm below the site.",
+      "Place thumb 7.6\u201310.2 cm below the site.",
+      "Use two fingers above and below the site.",
+      "Use one finger vertically and one horizontally."
+    ],
+    "explanation": "Placing thumb below the site creates tension and stabilizes the vein.",
+    "correct_answer": "Place thumb 2.5\u20135.1 cm below the site."
+  },
+  {
+    "id": 82,
+    "question": "Which action helps remove contaminants from hands before venipuncture?",
+    "choices": [
+      "Rinse hands downward.",
+      "Stand close to the sink.",
+      "Rub hands for 1 minute.",
+      "Apply clear nail polish."
+    ],
+    "explanation": "Rinsing downward removes contaminants into the sink.",
+    "correct_answer": "Rinse hands downward."
+  },
+  {
+    "id": 83,
+    "question": "What should be done when using a butterfly needle requiring safety activation in the arm?",
+    "choices": [
+      "Apply gauze and pressure after withdrawal.",
+      "Activate safety while still in arm.",
+      "Activate safety before releasing tourniquet.",
+      "Press thumb downward to activate safety."
+    ],
+    "explanation": "Pressure with gauze after withdrawal helps control bleeding.",
+    "correct_answer": "Apply gauze and pressure after withdrawal."
+  },
+  {
+    "id": 84,
+    "question": "How should a butterfly needle be inserted for a deep vein in the hand?",
+    "choices": [
+      "Insert distally into the vein.",
+      "Insert at 20\u00b0 angle.",
+      "Insert at 30\u00b0 angle.",
+      "Insert proximally into the vein."
+    ],
+    "explanation": "Distal insertion improves success in hand veins.",
+    "correct_answer": "Insert distally into the vein."
+  },
+  {
+    "id": 85,
+    "question": "A patient who had a stroke struggles to speak. What should the phlebotomist do?",
+    "choices": [
+      "Allow adequate time for the patient to speak.",
+      "Assume understanding and proceed.",
+      "Leave and return later.",
+      "Tell patient not to talk."
+    ],
+    "explanation": "Allowing time supports communication and patient dignity.",
+    "correct_answer": "Allow adequate time for the patient to speak."
+  },
+  {
+    "id": 86,
+    "question": "A patient reports bilateral mastectomy. What should the phlebotomist do?",
+    "choices": [
+      "Obtain written provider permission before collection.",
+      "Use dominant arm.",
+      "Use nondominant arm.",
+      "Perform capillary collection without concern."
+    ],
+    "explanation": "Test bank requires provider permission due to complication risk.",
+    "correct_answer": "Obtain written provider permission before collection."
+  },
+  {
+    "id": 87,
+    "question": "A patient experiences syncope. What should the phlebotomist do?",
+    "choices": [
+      "Document the incident.",
+      "Give orange juice.",
+      "Place patient prone.",
+      "Document vital signs in EHR."
+    ],
+    "explanation": "Incident documentation is required for clinical records.",
+    "correct_answer": "Document the incident."
+  },
+  {
+    "id": 88,
+    "question": "How should blood specimens be transported to the lab?",
+    "choices": [
+      "Place in a sealable container.",
+      "Place in specimen tray.",
+      "Place in car trunk.",
+      "Place near AC vent."
+    ],
+    "explanation": "Sealable containers prevent spills and contamination.",
+    "correct_answer": "Place in a sealable container."
+  },
+  {
+    "id": 89,
+    "question": "What is the correct step when preparing blood culture bottles?",
+    "choices": [
+      "Wipe tops with alcohol.",
+      "Shake bottles before collection.",
+      "Use iodine on bottle tops.",
+      "Fill anaerobic bottle first."
+    ],
+    "explanation": "Alcohol prevents contamination of bottle tops.",
+    "correct_answer": "Wipe tops with alcohol."
+  },
+  {
+    "id": 90,
+    "question": "What should a phlebotomist do when a provider adds a test after supplies are gathered?",
+    "choices": [
+      "Create a new label for the added tube.",
+      "Return to lab for new label.",
+      "Fill extra tubes for safety.",
+      "Ignore new order and continue."
+    ],
+    "explanation": "New orders require proper labeling at bedside.",
+    "correct_answer": "Create a new label for the added tube."
+  },
+  {
+    "id": 91,
+    "question": "A donor bag only fills halfway and vein collapses. What should be done?",
+    "choices": [
+      "Use a new collection bag.",
+      "Mark bag as half full.",
+      "Continue from another site.",
+      "Combine two bags."
+    ],
+    "explanation": "Blood donation requires a full closed system unit.",
+    "correct_answer": "Use a new collection bag."
+  },
+  {
+    "id": 92,
+    "question": "What is the correct procedure for neonatal heel puncture blood collection?",
+    "choices": [
+      "Wipe first drop, fill circles with one drop, allow to dry.",
+      "Smear blood across circles.",
+      "Touch heel to circle center.",
+      "Apply multiple drops per circle."
+    ],
+    "explanation": "First drop is removed to avoid tissue fluid contamination.",
+    "correct_answer": "Wipe first drop, fill circles with one drop, allow to dry."
+  },
+  {
+    "id": 93,
+    "question": "A patient is bleeding after venipuncture. What should be done?",
+    "choices": [
+      "Apply pressure for up to 5 minutes.",
+      "Apply pressure bandage immediately.",
+      "Notify nurse immediately.",
+      "Ask patient to hold arm down."
+    ],
+    "explanation": "Direct pressure is first-line bleeding control.",
+    "correct_answer": "Apply pressure for up to 5 minutes."
+  },
+  {
+    "id": 94,
+    "question": "What helps fill a donor blood collection bag?",
+    "choices": [
+      "Place bag below donor arm.",
+      "Squeeze bag during collection.",
+      "Combine blood from multiple bags.",
+      "Place bag on IV stand."
+    ],
+    "explanation": "Gravity improves blood flow into collection bag.",
+    "correct_answer": "Place bag below donor arm."
+  },
+  {
+    "id": 95,
+    "question": "How does blood culture venipuncture differ from standard venipuncture?",
+    "choices": [
+      "Requires thorough site disinfection.",
+      "Uses less blood volume.",
+      "Requires special permission.",
+      "Requires larger needle only."
+    ],
+    "explanation": "Strict disinfection prevents contamination of cultures.",
+    "correct_answer": "Requires thorough site disinfection."
+  },
+  {
+    "id": 96,
+    "question": "What technique should be used when inserting a needle into a vessel?",
+    "choices": [
+      "Advance until resistance change is felt.",
+      "Insert at 60\u00b0 angle.",
+      "Insert bevel down.",
+      "Insert rapidly."
+    ],
+    "explanation": "Loss of resistance indicates vessel entry.",
+    "correct_answer": "Advance until resistance change is felt."
+  },
+  {
+    "id": 97,
+    "question": "When should glucometer controls be run after testing?",
+    "choices": [
+      "After unexpected readings.",
+      "After every normal reading.",
+      "After any diabetic high reading.",
+      "After any low diabetic reading."
+    ],
+    "explanation": "Unexpected results require quality control verification.",
+    "correct_answer": "After unexpected readings."
+  },
+  {
+    "id": 98,
+    "question": "Which PPE is required for collecting blood from a patient with active tuberculosis?",
+    "choices": [
+      "N95 respirator",
+      "Double gloves",
+      "Surgical mask",
+      "Shoe covers"
+    ],
+    "explanation": "N95 respirator protects against airborne TB transmission.",
+    "correct_answer": "N95 respirator"
+  },
+  {
+    "id": 99,
+    "question": "Which glucose level is outside the expected reference range?",
+    "choices": [
+      "200 mg/dL",
+      "70 mg/dL",
+      "120 mg/dL",
+      "86 mg/dL"
+    ],
+    "explanation": "200 mg/dL exceeds normal glucose range.",
+    "correct_answer": "200 mg/dL"
+  },
+  {
+    "id": 100,
+    "question": "When should a dermal puncture be used instead of venipuncture?",
+    "choices": [
+      "When veins are inaccessible due to IVs, scarring, or burns.",
+      "When patient prefers dermal puncture.",
+      "When collecting blood cultures.",
+      "When performing ESR tests."
+    ],
+    "explanation": "Dermal puncture is used when venipuncture is not feasible.",
+    "correct_answer": "When veins are inaccessible due to IVs, scarring, or burns."
+  }
+]
