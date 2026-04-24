@@ -51,7 +51,7 @@ def normalize_questions(data):
 questions = normalize_questions(raw_questions)
 
 # ----------------------------
-# Session State Init
+# Session State
 # ----------------------------
 if "welcome_dismissed" not in st.session_state:
     st.session_state.welcome_dismissed = False
@@ -110,7 +110,7 @@ Legal disclaimer in case some NHA chud lawyer happens on this: this isn't made f
 
 
 # ----------------------------
-# Choose question set (exam vs review)
+# Select question set
 # ----------------------------
 if st.session_state.mode == "exam":
     question_set = st.session_state.questions_order
@@ -119,20 +119,35 @@ else:
 
 
 # ----------------------------
-# Handle empty review mode
+# SAFE MODE: empty review handling
 # ----------------------------
 if st.session_state.mode == "review" and len(question_set) == 0:
-    st.success("No missed questions — perfect run 🎉")
+    st.success("No missed questions — perfect score 🎉")
+
     if st.button("Restart Exam"):
         st.session_state.mode = "exam"
         st.session_state.index = 0
         st.session_state.score = 0
         st.session_state.incorrect_questions = []
+
         shuffled = copy.deepcopy(questions)
         random.shuffle(shuffled)
         st.session_state.questions_order = shuffled[:NUM_QUESTIONS]
+
         st.rerun()
+
     st.stop()
+
+
+# ----------------------------
+# INDEX SAFETY CHECK (FIXES CRASH)
+# ----------------------------
+if len(question_set) == 0:
+    st.error("No questions available.")
+    st.stop()
+
+if st.session_state.index >= len(question_set):
+    st.session_state.index = len(question_set) - 1
 
 
 # ----------------------------
@@ -147,15 +162,14 @@ if st.session_state.shuffled_choices is None:
 
 
 # ----------------------------
-# UI Header
+# UI
 # ----------------------------
 st.title("NHA CPT Practice Exam")
 
-progress_total = len(question_set)
-st.progress((st.session_state.index + 1) / progress_total)
+st.progress((st.session_state.index + 1) / len(question_set))
 
 st.caption(f"Mode: {st.session_state.mode.upper()}")
-st.caption(f"Question {st.session_state.index + 1} of {progress_total}")
+st.caption(f"Question {st.session_state.index + 1} of {len(question_set)}")
 
 st.markdown("---")
 
@@ -169,12 +183,9 @@ def check_answer(choice):
     st.session_state.selected = choice
     st.session_state.attempted = True
 
-    correct = q["correct_answer"]
-
-    if choice == correct:
+    if choice == q["correct_answer"]:
         st.session_state.score += 1
     else:
-        # store incorrect question once
         if q not in st.session_state.incorrect_questions:
             st.session_state.incorrect_questions.append(q)
 
@@ -192,9 +203,9 @@ if st.session_state.attempted:
         st.success("Correct")
     else:
         st.error("Incorrect")
-        st.markdown(f"**Correct answer:** {q['correct_answer']}")
+        st.write(f"Correct answer: {q['correct_answer']}")
 
-    st.markdown(f"**Explanation:** {q['explanation']}")
+    st.write(q["explanation"])
 
 
 st.markdown("<br><br>", unsafe_allow_html=True)
@@ -229,17 +240,16 @@ with col2:
             # ----------------------------
             st.success("Quiz complete 🎉")
 
-            total_answered = len(question_set)
+            total = len(question_set)
             score = st.session_state.score
-            percent = round((score / total_answered) * 100, 2) if total_answered else 0
+            percent = round((score / total) * 100, 2) if total else 0
 
-            st.write(f"Score: {score} / {total_answered}")
+            st.write(f"Score: {score} / {total}")
             st.write(f"Percentage: {percent}%")
 
             if len(st.session_state.incorrect_questions) > 0:
-                st.write(f"Missed Questions: {len(st.session_state.incorrect_questions)}")
+                st.write(f"Missed: {len(st.session_state.incorrect_questions)}")
 
-            # Review mode button
             if st.button("Review Missed Questions"):
                 st.session_state.mode = "review"
                 st.session_state.index = 0
@@ -248,11 +258,10 @@ with col2:
                 st.session_state.shuffled_choices = None
                 st.rerun()
 
-            # Restart full exam
-            if st.button("Restart Full Exam"):
+            if st.button("Restart Exam"):
                 st.session_state.mode = "exam"
                 st.session_state.index = 0
-                st.score = 0
+                st.session_state.score = 0
                 st.session_state.selected = None
                 st.session_state.attempted = False
                 st.session_state.incorrect_questions = []
