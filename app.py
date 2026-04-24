@@ -89,7 +89,8 @@ if "shuffled_choices" not in st.session_state:
 if not st.session_state.welcome_dismissed:
     st.title("💉 Welcome Vampires!! 🩸")
 
-    st.markdown("This is an unofficial NHA CPT practice exam, made with questions and answers extracted directly from the NHA practice test. I, Stevie, your classmate, have generously made this for you 🫵 to practice this godforsaken fucking test. It's important to note that these answers may not align with reality or anything you learned in class, but at this point we don't have much choice but to study for the test and not reality!
+    st.markdown("""
+This is an unofficial NHA CPT practice exam, made with questions and answers extracted directly from the NHA practice test. I, Stevie, your classmate and friend, have generously made this for you 🫵 to practice this godforsaken fucking test. It's important to note that these answers may not align with reality or anything you learned in class, but at this point we don't have much choice but to study for the test and not reality!
 
 If you have any issues, contact:
 - 📞 303-931-6977  (fastest)
@@ -98,7 +99,8 @@ If you have any issues, contact:
 
 ---
 
-Legal disclaimer in case some NHA chud lawyer happens on this: this isn't made for profit so bite me and fix your exam questions before you get sued. 🤡")
+Legal disclaimer in case some NHA chud lawyer happens on this: this isn't made for profit so bite me and fix your exam questions before you get sued. 🤡
+""")
 
     if st.button("Enter Quiz"):
         st.session_state.welcome_dismissed = True
