@@ -1199,4 +1199,232 @@
     "explanation": "Dermal puncture is used when venipuncture is not feasible.",
     "correct_answer": "When veins are inaccessible due to IVs, scarring, or burns."
   }
+{
+    "id": 101,
+    "question": "According to the Patients' Bill of Rights, which right do patients have when receiving medical care?",
+    "choices": [
+      "The right to refuse care and be informed of the medical consequences of that decision",
+      "The right to have all medical services provided in their native language, regardless of the facility's capabilities",
+      "The right to demand medical treatments regardless of medical necessity or provider recommendations",
+      "The right to have unlimited access to any hospital facility for treatment without a referral"
+    ],
+    "correct_answer": "The right to refuse care and be informed of the medical consequences of that decision",
+    "explanation": "Patients have the right to refuse care and must be informed of the consequences to make an informed decision."
+  },
+  {
+    "id": 102,
+    "question": "What is the primary reason for conducting a patient interview before a phlebotomy procedure?",
+    "choices": [
+      "To inquire about allergies and a history of fainting",
+      "To socialize and build a personal relationship",
+      "To determine blood type and donation eligibility",
+      "To explain the facility’s services in detail"
+    ],
+    "correct_answer": "To inquire about allergies and a history of fainting",
+    "explanation": "This helps prevent complications and ensures patient safety during the procedure."
+  },
+  {
+    "id": 103,
+    "question": "What is the significance of active listening?",
+    "choices": [
+      "It demonstrates engagement and understanding, reassuring the patient",
+      "It helps complete the procedure more quickly",
+      "It ensures technical instructions are delivered clearly",
+      "It prepares patients for future appointments"
+    ],
+    "correct_answer": "It demonstrates engagement and understanding, reassuring the patient",
+    "explanation": "Active listening helps patients feel heard, understood, and more comfortable."
+  },
+  {
+    "id": 104,
+    "question": "What should a phlebotomist tell a patient before their first venipuncture?",
+    "choices": [
+      "The steps involved and what sensations they might feel",
+      "That the procedure is completely painless",
+      "To ignore any discomfort",
+      "That complications are common"
+    ],
+    "correct_answer": "The steps involved and what sensations they might feel",
+    "explanation": "Setting expectations reduces anxiety and builds trust."
+  },
+  {
+    "id": 105,
+    "question": "What is the recommended patient positioning during venipuncture?",
+    "choices": [
+      "Use a specialized venipuncture chair with armrests and a locking bar",
+      "Have the patient stand",
+      "Seat the patient on a high stool",
+      "Place the patient on the edge of an exam table"
+    ],
+    "correct_answer": "Use a specialized venipuncture chair with armrests and a locking bar",
+    "explanation": "Proper positioning improves safety and reduces risk of injury."
+  },
+  {
+    "id": 106,
+    "question": "Which type of consent involves nonverbal agreement to a procedure?",
+    "choices": [
+      "Implied consent",
+      "Informed consent",
+      "Expressed consent",
+      "Consent for minors"
+    ],
+    "correct_answer": "Implied consent",
+    "explanation": "Implied consent is shown through actions, like extending an arm for a blood draw."
+  },
+  {
+    "id": 107,
+    "question": "Why should a phlebotomist be mindful of speech rate, tone, and volume?",
+    "choices": [
+      "To enhance patient comfort and understanding",
+      "To avoid legal consequences",
+      "To complete the procedure faster",
+      "To follow strict facility protocols only"
+    ],
+    "correct_answer": "To enhance patient comfort and understanding",
+    "explanation": "Clear and calm communication improves patient experience and comprehension."
+  },
+  {
+    "id": 108,
+    "question": "Why should patients avoid certain foods and medications before a fecal occult blood test?",
+    "choices": [
+      "To avoid interference that can mimic blood in results",
+      "To prevent psychological discomfort",
+      "To eliminate undigested food particles",
+      "To reduce bacterial contamination"
+    ],
+    "correct_answer": "To avoid interference that can mimic blood in results",
+    "explanation": "Certain substances can cause false positives or negatives."
+  },
+  {
+    "id": 109,
+    "question": "What is the purpose of a chain of custody form in urine drug screening?",
+    "choices": [
+      "To document handling of the specimen from collection to analysis",
+      "To provide test results",
+      "To ensure refrigeration",
+      "To list drugs being tested"
+    ],
+    "correct_answer": "To document handling of the specimen from collection to analysis",
+    "explanation": "It ensures sample integrity and prevents tampering concerns."
+  },
+  {
+    "id": 110,
+    "question": "Why should a phlebotomist be aware of a patient’s medications before venipuncture?",
+    "choices": [
+      "To anticipate the need for additional precautions",
+      "To recommend alternative medications",
+      "To adjust dosages",
+      "To educate on side effects"
+    ],
+    "correct_answer": "To anticipate the need for additional precautions",
+    "explanation": "Some medications increase bleeding risk or require extra care."
+  },
+  {
+    "id": 111,
+    "question": "What is the primary role of nonverbal communication in patient interaction?",
+    "choices": [
+      "To supplement or replace verbal communication when needed",
+      "To replace verbal communication entirely",
+      "To contradict verbal instructions",
+      "To maintain confidentiality"
+    ],
+    "correct_answer": "To supplement or replace verbal communication when needed",
+    "explanation": "Nonverbal cues reinforce and support spoken communication."
+  },
+  {
+    "id": 112,
+    "question": "What is the correct procedure for a urine reagent strip test?",
+    "choices": [
+      "Dip the strip, wait specified times, and compare to the chart",
+      "Dip and immediately compare",
+      "Let the strip sit for an extended time",
+      "Let the strip dry before reading"
+    ],
+    "correct_answer": "Dip the strip, wait specified times, and compare to the chart",
+    "explanation": "Timing is critical for accurate chemical reactions on the strip."
+  },
+  {
+    "id": 113,
+    "question": "What should a phlebotomist do if a patient refuses a blood draw?",
+    "choices": [
+      "Document the refusal",
+      "Proceed anyway",
+      "Persuade by any means",
+      "Ignore and mark noncompliance"
+    ],
+    "correct_answer": "Document the refusal",
+    "explanation": "This respects patient rights and provides legal protection."
+  },
+  {
+    "id": 114,
+    "question": "Why review a laboratory requisition form before collection?",
+    "choices": [
+      "To confirm tests and check for special requirements",
+      "To decide which samples to send",
+      "To practice handwriting",
+      "To review insurance details"
+    ],
+    "correct_answer": "To confirm tests and check for special requirements",
+    "explanation": "This helps prevent errors and ensures proper handling."
+  },
+  {
+    "id": 115,
+    "question": "Why verify a patient’s insurance coverage?",
+    "choices": [
+      "To ensure tests are authorized and covered",
+      "To determine blood type",
+      "To confirm identity",
+      "To schedule appointments"
+    ],
+    "correct_answer": "To ensure tests are authorized and covered",
+    "explanation": "This prevents billing issues and ensures services are covered."
+  },
+  {
+    "id": 116,
+    "question": "What is the correct procedure for a timed urine collection?",
+    "choices": [
+      "Discard the first void and collect all urine for the specified period",
+      "Collect only one sample",
+      "Collect only some samples",
+      "Collect first sample only"
+    ],
+    "correct_answer": "Discard the first void and collect all urine for the specified period",
+    "explanation": "Complete collection ensures accurate test results."
+  },
+  {
+    "id": 117,
+    "question": "Why must a phlebotomist understand a patient’s routine for basal state testing?",
+    "choices": [
+      "To ensure accurate baseline measurements",
+      "To entertain the patient",
+      "To match preferences",
+      "To speed up registration"
+    ],
+    "correct_answer": "To ensure accurate baseline measurements",
+    "explanation": "Basal state depends on the patient’s normal rest cycle."
+  },
+  {
+    "id": 118,
+    "question": "Why verify patient identity using two identifiers?",
+    "choices": [
+      "To ensure the correct patient receives the correct tests",
+      "To test memory",
+      "To reduce paperwork",
+      "To assert authority"
+    ],
+    "correct_answer": "To ensure the correct patient receives the correct tests",
+    "explanation": "This prevents serious medical errors."
+  },
+  {
+    "id": 119,
+    "question": "What is an appropriate role for a phlebotomist in patient registration?",
+    "choices": [
+      "Collecting and verifying patient and insurance information",
+      "Providing diagnoses",
+      "Determining test costs",
+      "Administering medications"
+    ],
+    "correct_answer": "Collecting and verifying patient and insurance information",
+    "explanation": "Phlebotomists may assist with intake tasks but do not diagnose or treat."
+  }
 ]
