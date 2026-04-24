@@ -4,6 +4,11 @@ import random
 import copy
 
 # ----------------------------
+# Settings
+# ----------------------------
+NUM_QUESTIONS = 50
+
+# ----------------------------
 # Load questions
 # ----------------------------
 with open("questions.json", "r") as f:
@@ -53,12 +58,12 @@ if "welcome_dismissed" not in st.session_state:
     st.session_state.welcome_dismissed = False
 
 # ----------------------------
-# Shuffle questions once
+# Pick 50 random questions ONCE per session
 # ----------------------------
 if "questions_order" not in st.session_state:
     shuffled = copy.deepcopy(questions)
     random.shuffle(shuffled)
-    st.session_state.questions_order = shuffled
+    st.session_state.questions_order = shuffled[:NUM_QUESTIONS]
 
 # ----------------------------
 # Session state init
@@ -80,22 +85,16 @@ if "shuffled_choices" not in st.session_state:
 
 
 # ----------------------------
-# WELCOME SCREEN (blocks quiz)
+# WELCOME SCREEN
 # ----------------------------
 if not st.session_state.welcome_dismissed:
     st.title("💉 Welcome vampires! 🩸")
 
     st.markdown("""
-This is an unofficial NHA CPT practice exam, made with questions and answers extracted directly from the NHA practice test. I, Stevie, your classmate, have generously made this for you 🫵 to practice this godforsaken fucking test. It's important to note that these answers may not align with reality or anything you learned in class, but at this point we don't have much choice but to study for the test and not reality!
+This is an unofficial NHA CPT practice exam.
+You will receive 50 random questions per session.
 
-If you have any issues, contact:
-- 📞 303-931-6977  (fastest)
-- 📧 steviearmstrong@protonmail.com  
-- 💬 D2L message  (slowest)
-
----
-
-**Legal disclaimer in case some NHA chud lawyer happens on this: this isn't made for profit so bite me and fix your exam questions before you get sued. 🤡
+Good luck.
 """)
 
     if st.button("Enter Quiz"):
@@ -152,14 +151,14 @@ for choice in st.session_state.shuffled_choices:
 # ----------------------------
 if st.session_state.attempted and st.session_state.selected:
     if st.session_state.selected == q["correct_answer"]:
-        st.success("Nice work ✨🙂")
+        st.success("Correct")
         st.markdown(f"**Explanation:** {q['explanation']}")
     else:
-        st.error("Not quite — try again.")
-        st.markdown("You can select another answer.")
+        st.error("Incorrect")
+        st.markdown(f"**Correct answer:** {q['correct_answer']}")
+        st.markdown(f"**Explanation:** {q['explanation']}")
 
 
-# spacing
 st.markdown("<br><br>", unsafe_allow_html=True)
 
 
@@ -173,24 +172,17 @@ def next_question():
     st.session_state.shuffled_choices = None
 
 
-def skip_question():
-    st.session_state.index += 1
-    st.session_state.selected = None
-    st.session_state.attempted = False
-    st.session_state.shuffled_choices = None
-
-
 col1, col2 = st.columns(2)
 
 with col1:
-    if st.button("Skip Question ⏭"):
-        skip_question()
+    if st.button("Skip ⏭"):
+        next_question()
         st.rerun()
 
 with col2:
     if st.session_state.attempted:
         if st.session_state.index < len(st.session_state.questions_order) - 1:
-            if st.button("Next Question →"):
+            if st.button("Next →"):
                 next_question()
                 st.rerun()
         else:
@@ -206,6 +198,6 @@ with col2:
 
                 shuffled = copy.deepcopy(questions)
                 random.shuffle(shuffled)
-                st.session_state.questions_order = shuffled
+                st.session_state.questions_order = shuffled[:NUM_QUESTIONS]
 
                 st.rerun()
